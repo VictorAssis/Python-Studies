@@ -1,0 +1,8 @@
+meters = float(input('Type a distance in meters: '))
+print(f'{meters} meters is equal to:')
+print(f'- {meters / 1000}km')
+print(f'- {meters / 100}hm')
+print(f'- {meters / 10}dam')
+print(f'- {meters * 10}dm')
+print(f'- {meters * 100}cm')
+print(f'- {meters * 1000}mm')
